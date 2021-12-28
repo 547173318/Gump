@@ -1,0 +1,100 @@
+{"level":"ERROR","time":"2021-12-28T12:26:41.840+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"Error 1049: Unknown database 'gump'"}
+{"level":"INFO","time":"2021-12-28T12:59:23.956+0800","caller":"Gump_backend/main.go:76","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T12:59:24.459+0800","caller":"Gump_backend/main.go:86","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:02:28.286+0800","caller":"Gump_backend/main.go:80","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:02:28.787+0800","caller":"Gump_backend/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:02:32.859+0800","caller":"Gump_backend/main.go:80","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:02:33.438+0800","caller":"Gump_backend/main.go:90","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:04:09.642+0800","caller":"Gump_backend/main.go:82","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:04:10.143+0800","caller":"Gump_backend/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:04:52.497+0800","caller":"Gump_backend/main.go:82","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:04:52.998+0800","caller":"Gump_backend/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:04:54.944+0800","caller":"Gump_backend/main.go:82","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:04:55.447+0800","caller":"Gump_backend/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2021-12-28T13:06:58.511+0800","caller":"Gump_backend/main.go:82","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:06:59.013+0800","caller":"Gump_backend/main.go:92","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:07:07.432+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:09:27.183+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:09:27.683+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:09:28.585+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:09:29.371+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:09:29.873+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:09:40.134+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:10:29.805+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:10:30.307+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:10:38.943+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:11:04.417+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:11:04.918+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:11:15.228+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:12:44.814+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:12:45.314+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:12:53.553+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:16:47.697+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:16:48.197+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:17:00.578+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:18:01.007+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:18:01.509+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:18:17.161+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:19:03.114+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:19:03.616+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:22:58.094+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:23:35.166+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:23:35.666+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:23:57.094+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:26:39.625+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:26:40.127+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:26:49.743+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:29:40.366+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:29:40.867+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:29:50.453+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:30:30.732+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:30:31.232+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:35:56.197+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:38:03.358+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:38:03.860+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:38:19.328+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:38:57.543+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:38:58.044+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:39:07.891+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:40:37.049+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:40:37.550+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:40:46.727+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:42:57.819+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:42:58.321+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:43:13.456+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:46:24.262+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:46:24.763+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:47:20.206+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T13:49:23.939+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T13:49:24.440+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T13:49:33.943+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:07:21.415+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T14:07:21.915+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T14:07:38.904+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:11:16.594+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T14:11:16.595+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T14:17:56.080+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:18:18.253+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:18:18.521+0800","caller":"logger/logger.go:68","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:18:33.871+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:26:02.968+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T14:26:03.469+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T14:26:11.953+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:26:19.515+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:26:19.600+0800","caller":"logger/logger.go:68","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:32.922+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T14:34:33.422+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T14:34:40.652+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:34:54.696+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:55.213+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:55.386+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:55.551+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:55.700+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:34:55.857+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:35:44.260+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T14:54:44.363+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T14:54:44.864+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T14:55:01.148+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-28T14:55:01.152+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"Error 1049: Unknown database 'gump11'"}
+{"level":"DEBUG","time":"2021-12-28T14:55:23.343+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T14:55:29.101+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0.0010027}
