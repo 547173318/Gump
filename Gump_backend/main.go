@@ -3,6 +3,7 @@ package main
 import (
 	"Gump_backend/dao/mysql"
 	"Gump_backend/logger"
+	"Gump_backend/pkg/snowflake"
 	"Gump_backend/routes"
 	"Gump_backend/settings"
 	"context"
@@ -31,7 +32,7 @@ func main() {
 	}
 
 	// 初始化日志
-	if err := logger.Init(settings.Conf.LogConfig); err != nil {
+	if err := logger.Init(settings.Conf.LogConfig, settings.Conf.Mode); err != nil {
 		fmt.Printf("init logger failed,err:%v\n", err)
 		return
 	}
@@ -52,8 +53,14 @@ func main() {
 	//}
 	//defer redis.Close()
 
+	// 初始话雪花算法（基于该项目的成立时间）
+	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
+		fmt.Printf("init snowflake failed,err:%v\n", err)
+		return
+	}
+
 	// 注册路由
-	r := routes.Setup()
+	r := routes.Setup(settings.Conf.Mode)
 
 	// 启动服务（优雅关机）
 	srv := &http.Server{

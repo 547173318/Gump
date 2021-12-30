@@ -2,6 +2,8 @@ name: "Gump"
 mode: "dev"
 port: 3000
 version: "v.0.0.1"
+start_time: "2021-12-28"
+machine_id: 1
 
 log:
   level: "debug"

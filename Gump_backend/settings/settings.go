@@ -12,10 +12,12 @@ var Conf = new(AppConfig)
 
 // 整个项目的配置信息
 type AppConfig struct {
-	Name    string `mapstructure:"name"`
-	Mode    string `mapstructure:"mode"`
-	Port    int    `mapstructure:"port"`
-	Version string `mapstructure:"version"`
+	Name      string `mapstructure:"name"`
+	Mode      string `mapstructure:"mode"`
+	Port      int    `mapstructure:"port"`
+	Version   string `mapstructure:"version"`
+	StartTime string `mapstructure:"start_time"`
+	MachineID int64  `mapstructure:"machine_id"`
 
 	*LogConfig   `mapstructure:"log"`
 	*MysqlConfig `mapstructure:"mysql"`

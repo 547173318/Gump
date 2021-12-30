@@ -98,3 +98,110 @@
 {"level":"ERROR","time":"2021-12-28T14:55:01.152+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"Error 1049: Unknown database 'gump11'"}
 {"level":"DEBUG","time":"2021-12-28T14:55:23.343+0800","caller":"Gump_backend/main.go:39","msg":"zap init success"}
 {"level":"INFO","time":"2021-12-28T14:55:29.101+0800","caller":"logger/logger.go:68","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0.0010027}
+{"level":"INFO","time":"2021-12-28T18:41:58.133+0800","caller":"logger/logger.go:68","msg":"/","status":404,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T18:41:58.414+0800","caller":"logger/logger.go:68","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-28T18:59:37.404+0800","caller":"Gump_backend/main.go:77","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T18:59:37.906+0800","caller":"Gump_backend/main.go:87","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T20:24:10.983+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T20:24:17.161+0800","caller":"Gump_backend/main.go:86","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T20:24:17.663+0800","caller":"Gump_backend/main.go:96","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-28T20:24:20.166+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-28T20:24:26.270+0800","caller":"Gump_backend/main.go:86","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-28T20:24:26.772+0800","caller":"Gump_backend/main.go:96","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:06:01.235+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-29T20:08:54.404+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0009803}
+{"level":"INFO","time":"2021-12-29T20:10:07.890+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-29T20:10:11.451+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-29T20:10:28.712+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-29T20:10:59.913+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.1978689}
+{"level":"INFO","time":"2021-12-29T20:12:04.594+0800","caller":"logger/logger.go:68","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-29T20:13:01.461+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:13:01.962+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:17:16.654+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-29T20:20:41.351+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:20:41.852+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:20:53.731+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-29T20:21:01.065+0800","caller":"controllers/users.go:20","msg":"SignUp with invalid param","error":"Key: 'SignUpParam.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2021-12-29T20:21:01.066+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0009998}
+{"level":"ERROR","time":"2021-12-29T20:21:32.480+0800","caller":"controllers/users.go:36","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2021-12-29T20:21:32.481+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0060022}
+{"level":"INFO","time":"2021-12-29T20:22:06.848+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:22:07.349+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:22:19.901+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-29T20:23:11.714+0800","caller":"controllers/users.go:36","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2021-12-29T20:23:11.717+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0070094}
+{"level":"INFO","time":"2021-12-29T20:23:17.067+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0210167}
+{"level":"ERROR","time":"2021-12-29T20:23:21.520+0800","caller":"controllers/users.go:20","msg":"SignUp with invalid param","error":"Key: 'SignUpParam.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2021-12-29T20:23:21.522+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0020213}
+{"level":"INFO","time":"2021-12-29T20:26:18.173+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:26:18.674+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:26:28.713+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-29T20:26:34.200+0800","caller":"controllers/users.go:20","msg":"SignUp with invalid param","error":"Key: 'SignUpParam.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2021-12-29T20:26:34.201+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0029931}
+{"level":"INFO","time":"2021-12-29T20:27:58.180+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:27:58.681+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:28:04.732+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-29T20:28:17.944+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.016002}
+{"level":"INFO","time":"2021-12-29T20:29:27.346+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:29:27.847+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-29T20:29:33.782+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-29T20:29:45.164+0800","caller":"controllers/users.go:36","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2021-12-29T20:29:45.164+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0040096}
+{"level":"INFO","time":"2021-12-29T20:29:54.551+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0129949}
+{"level":"INFO","time":"2021-12-29T20:35:21.568+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-29T20:35:22.069+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T13:19:13.292+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-30T13:20:43.255+0800","caller":"controllers/users.go:55","msg":"SignIn with invalid param","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2021-12-30T13:20:43.256+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0010114}
+{"level":"ERROR","time":"2021-12-30T13:20:48.392+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2021-12-30T13:20:48.393+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0370034}
+{"level":"ERROR","time":"2021-12-30T13:21:28.843+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2021-12-30T13:21:28.843+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0140004}
+{"level":"ERROR","time":"2021-12-30T13:24:01.453+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2021-12-30T13:24:01.453+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0069949}
+{"level":"INFO","time":"2021-12-30T13:25:03.230+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-30T13:25:03.731+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T13:25:17.039+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-30T13:25:21.466+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"missing destination name id in *models.User"}
+{"level":"INFO","time":"2021-12-30T13:25:21.466+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0049914}
+{"level":"INFO","time":"2021-12-30T13:25:45.997+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-30T13:25:46.499+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T13:27:22.098+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-30T13:27:25.048+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"Error 1054: Unknown column 'user_id.username.password' in 'field list'"}
+{"level":"INFO","time":"2021-12-30T13:27:25.049+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0109989}
+{"level":"INFO","time":"2021-12-30T13:27:36.012+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-30T13:27:36.512+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T13:27:52.118+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-30T13:27:55.198+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-12-30T13:27:55.199+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0040125}
+{"level":"ERROR","time":"2021-12-30T13:28:00.587+0800","caller":"controllers/users.go:71","msg":"logic.SignIn failed","error":"用户不存在"}
+{"level":"INFO","time":"2021-12-30T13:28:00.588+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0069712}
+{"level":"INFO","time":"2021-12-30T13:28:05.702+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0030014}
+{"level":"INFO","time":"2021-12-30T14:03:28.503+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-30T14:03:29.004+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T14:04:33.215+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2021-12-30T14:04:39.887+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0139981}
+{"level":"ERROR","time":"2021-12-30T14:04:50.430+0800","caller":"controllers/users.go:66","msg":"logic.SignIn failed","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-12-30T14:04:50.430+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0080003}
+{"level":"ERROR","time":"2021-12-30T14:04:59.899+0800","caller":"controllers/users.go:66","msg":"logic.SignIn failed","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-12-30T14:04:59.900+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0040203}
+{"level":"INFO","time":"2021-12-30T14:05:37.522+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2021-12-30T14:05:38.023+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-12-30T14:05:51.174+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"ERROR","time":"2021-12-30T14:05:54.200+0800","caller":"controllers/users.go:66","msg":"logic.SignIn failed","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-12-30T14:05:54.201+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0079898}
+{"level":"ERROR","time":"2021-12-30T14:05:59.980+0800","caller":"controllers/users.go:66","msg":"logic.SignIn failed","error":"用户不存在"}
+{"level":"INFO","time":"2021-12-30T14:05:59.980+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0030011}
+{"level":"ERROR","time":"2021-12-30T14:06:06.867+0800","caller":"controllers/users.go:66","msg":"logic.SignIn failed","error":"用户名或密码错误"}
+{"level":"INFO","time":"2021-12-30T14:06:06.867+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0019995}
+{"level":"ERROR","time":"2021-12-30T14:06:11.282+0800","caller":"controllers/users.go:53","msg":"SignIn with invalid param","error":"invalid character '\\r' in string literal"}
+{"level":"INFO","time":"2021-12-30T14:06:11.282+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"INFO","time":"2021-12-30T14:06:16.609+0800","caller":"logger/logger.go:79","msg":"/SignIn","status":200,"method":"POST","path":"/SignIn","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0019997}
+{"level":"ERROR","time":"2021-12-30T14:06:22.056+0800","caller":"controllers/users.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2021-12-30T14:06:22.056+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0100026}
+{"level":"INFO","time":"2021-12-30T14:06:28.196+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0320063}
+{"level":"ERROR","time":"2021-12-30T14:06:33.370+0800","caller":"controllers/users.go:22","msg":"SignUp with invalid param","error":"Key: 'SignUpParam.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2021-12-30T14:06:33.370+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0}
+{"level":"ERROR","time":"2021-12-30T14:07:20.946+0800","caller":"controllers/users.go:34","msg":"logic.SignUp failed","error":"用户已存在"}
+{"level":"INFO","time":"2021-12-30T14:07:20.947+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0040002}
+{"level":"INFO","time":"2021-12-30T14:07:25.854+0800","caller":"logger/logger.go:79","msg":"/SignUp","status":200,"method":"POST","path":"/SignUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.28.4","errors":"","cost":0.0110192}
