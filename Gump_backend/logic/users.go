@@ -4,6 +4,7 @@ import (
 	"Gump_backend/dao/mysql"
 	"Gump_backend/models"
 	model "Gump_backend/models"
+	"Gump_backend/pkg/jwt"
 	"Gump_backend/pkg/snowflake"
 )
 
@@ -31,5 +32,11 @@ func SignIn(p *model.SignInParam) (user *models.User, err error) {
 	if err = mysql.SignIn(user); err != nil {
 		return nil, err
 	}
+
+	token, err := jwt.GenToken(user.UserID, user.Username)
+	if err != nil {
+		return
+	}
+	user.Token = token
 	return
 }

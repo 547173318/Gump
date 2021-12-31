@@ -3,6 +3,7 @@ package routes
 import (
 	"Gump_backend/controllers"
 	"Gump_backend/logger"
+	"Gump_backend/middlewares"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
@@ -16,11 +17,14 @@ func Setup(mode string) (r *gin.Engine) {
 	}
 	r = gin.New()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
-	r.GET("/hello", func(context *gin.Context) {
+
+	v1 := r.Group("/api/v1")
+	v1.POST("/SignUp", controllers.SignUpHandle)
+	v1.POST("/SignIn", controllers.SignInHandle)
+
+	v1.GET("/hello", middlewares.JWTAuthMiddleware(), func(context *gin.Context) {
 		context.String(http.StatusOK, "ok")
 	})
 
-	r.POST("/SignUp", controllers.SignUpHandle)
-	r.POST("/SignIn", controllers.SignInHandle)
 	return
 }

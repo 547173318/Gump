@@ -17,7 +17,8 @@ import (
 func SignUpHandle(context *gin.Context) {
 	// 1、参数处理
 	p := new(model.SignUpParam)
-	if err := context.ShouldBind(p); err != nil {
+
+	if err := context.ShouldBindJSON(p); err != nil {
 		// 请求参数有误，直接返回响应
 		zap.L().Error("SignUp with invalid param", zap.Error(err))
 		// 判断err是不是validator.ValidationErrors 类型
@@ -46,7 +47,7 @@ func SignUpHandle(context *gin.Context) {
 func SignInHandle(context *gin.Context) {
 	// 1、参数校验
 	p := new(model.SignInParam)
-	if err := context.ShouldBind(p); err != nil {
+	if err := context.ShouldBindJSON(p); err != nil {
 		// 请求参数有误，直接返回响应
 		zap.L().Error("SignIn with invalid param", zap.Error(err))
 		// 判断err是不是validator.ValidationErrors 类型
@@ -77,5 +78,6 @@ func SignInHandle(context *gin.Context) {
 	ResponseSuccess(context, gin.H{
 		"user_id":   fmt.Sprintf("%d", user.UserID), // id值大于1<<53-1  int64类型的最大值是1<<63-1
 		"user_name": user.Username,
+		"token":     user.Token,
 	})
 }
