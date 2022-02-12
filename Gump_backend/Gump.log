@@ -562,3 +562,13 @@
 {"level":"INFO","time":"2021-12-31T19:03:32.390+0800","caller":"logger/logger.go:79","msg":"/api/v1/SignIn","status":200,"method":"POST","path":"/api/v1/SignIn","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0.0189743}
 {"level":"INFO","time":"2021-12-31T19:03:42.066+0800","caller":"logger/logger.go:79","msg":"/api/v1/SignIn","status":200,"method":"POST","path":"/api/v1/SignIn","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0.0279988}
 {"level":"INFO","time":"2021-12-31T19:03:42.389+0800","caller":"logger/logger.go:79","msg":"/api/v1/posts2","status":404,"method":"GET","path":"/api/v1/posts2","query":"page=1&order=time","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36","errors":"","cost":0}
+{"level":"DEBUG","time":"2022-02-12T15:43:32.995+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2022-02-12T15:43:39.087+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2022-02-12T15:43:39.588+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-02-12T15:59:35.902+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"DEBUG","time":"2022-02-12T16:19:37.794+0800","caller":"Gump_backend/main.go:40","msg":"zap init success"}
+{"level":"INFO","time":"2022-02-12T16:19:42.904+0800","caller":"Gump_backend/main.go:83","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2022-02-12T16:19:43.404+0800","caller":"Gump_backend/main.go:93","msg":"Server exiting"}
+{"level":"DEBUG","time":"2022-02-12T16:32:27.212+0800","caller":"Gump_backend/main.go:41","msg":"zap init success"}
+{"level":"INFO","time":"2022-02-12T16:32:29.256+0800","caller":"Gump_backend/main.go:84","msg":"Shutdown Server..."}
+{"level":"INFO","time":"2022-02-12T16:32:29.757+0800","caller":"Gump_backend/main.go:94","msg":"Server exiting"}

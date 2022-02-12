@@ -6,6 +6,7 @@ import (
 	"Gump_backend/pkg/snowflake"
 	"Gump_backend/routes"
 	"Gump_backend/settings"
+
 	"context"
 	"fmt"
 	"log"
@@ -61,7 +62,6 @@ func main() {
 
 	// 注册路由
 	r := routes.Setup(settings.Conf.Mode)
-
 	// 启动服务（优雅关机）
 	srv := &http.Server{
 		Addr:    fmt.Sprintf(":%d", settings.Conf.Port),
